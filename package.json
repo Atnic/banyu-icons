@@ -15,21 +15,21 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
+    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
   },
   "author": "jala.tech",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.16.4",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@svgr/cli": "^6.1.2",
-    "rimraf": "^3.0.2",
-    "rollup": "^4.5.1",
-    "rollup-plugin-filesize": "^9.1.1"
+    "@babel/plugin-transform-runtime": "^7.23.4",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@svgr/cli": "^8.1.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.6.1",
+    "rollup-plugin-filesize": "^10.0.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.16.3"
+    "@babel/runtime": "^7.23.5"
   }
 }
