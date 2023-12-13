@@ -15,7 +15,7 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
+    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values #404040=currentColor --svg-props fill=\"currentColor\" -d src -- assets"
   },
   "author": "jala.tech",
   "license": "MIT",
