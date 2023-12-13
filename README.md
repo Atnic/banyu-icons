@@ -2,7 +2,7 @@
 
 Example:
 ```
-import {JalaBiomass,JalaAge} from 'jala-icons'
+import {JalaBiomass,JalaAge} from '@muhamien/jala-icons'
 
 function App() {
 
