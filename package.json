@@ -1,6 +1,6 @@
 {
   "name": "@muhamien/jala-icons",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Jala icons set for React",
   "keywords": [
     "React",
@@ -15,9 +15,9 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values #404040=currentColor --svg-props fill=\"currentColor\" -d src -- assets"
+    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values \"#101828={currentColor}\" --svg-props fill=\"currentColor\" -d src -- assets"
   },
-  "author": "jala.tech",
+  "author": "Muhammad Amien <muhammadamien23@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.23.4",

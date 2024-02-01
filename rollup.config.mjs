@@ -10,6 +10,6 @@ export default {
     external: [/@babel\/runtime/, 'react'],
     plugins: [
         babel({ babelHelpers: 'runtime', plugins: ['@babel/plugin-transform-runtime'] }),
-        filesize(),
+        // filesize(),
     ],
 };
