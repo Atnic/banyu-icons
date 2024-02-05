@@ -1,5 +1,5 @@
 # jala-icons
-![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)]
+![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)
 
 ``Jala icon`` is an icon library designed for the react project by Jala Design, provided to help develop the JALA Web App
 
