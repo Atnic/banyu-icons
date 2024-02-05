@@ -3,6 +3,8 @@
 
 ``Jala icon`` is an icon library designed for the react project by Jala Design, provided to help develop the JALA Web App
 
+Visit documentation page: https://jala-icons-doc.vercel.app/
+
 ## Installation
 Choose the following package manager used in your project
 #### npm
