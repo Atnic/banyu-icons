@@ -1,15 +1,22 @@
-const template = (variables, { tpl }) => {
-    return tpl`
-${variables.imports};
+const template = (
+    { imports, interfaces, componentName, props, jsx, exports },
+    { tpl },
+) => {
+    return tpl`${imports}
+import PropTypes from 'prop-types';
+${interfaces}
 
-${variables.interfaces};
+function ${componentName}(${props}) {
+  return ${jsx};
+}
 
-const ${variables.componentName} = (${variables.props}) => (
-  ${variables.jsx}
-);
+${componentName}.propTypes = {
+  title: PropTypes.string,
+  className: PropTypes.string,
+};
 
-${variables.exports};
-`
+${exports}
+  `
 }
 
 module.exports = template

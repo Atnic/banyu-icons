@@ -1,6 +1,6 @@
 {
   "name": "@jala-banyu/icons",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Banyu icons set for React by JALA",
   "keywords": [
     "React",
@@ -17,7 +17,7 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --index-template jala-template.js --typescript --icon --title-prop --replace-attr-values \"#101828={currentColor}\" --svg-props fill=\"currentColor\" -d src -- assets"
+    "svgr": "svgr --index-template jala-template.js --typescript --icon --title-prop --replace-attr-values \"#182230=currentColor\" --svg-props fill=\"currentColor\" -d src -- assets"
   },
   "author": "Muhammad Amien <muhammadamien23@gmail.com>",
   "license": "MIT",

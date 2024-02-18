@@ -1,7 +1,14 @@
 import type { SVGProps } from "react";
+import PropTypes from "prop-types";
 interface SVGRProps {
     title?: string;
     titleId?: string;
 }
-declare const SvgSalinity: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => import("react/jsx-runtime").JSX.Element;
+declare function SvgSalinity({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
+declare namespace SvgSalinity {
+    var propTypes: {
+        title: PropTypes.Requireable<string>;
+        className: PropTypes.Requireable<string>;
+    };
+}
 export default SvgSalinity;
