@@ -1,1 +1,0 @@
-import{Social_default as m}from"./chunk-2BNR4YJ3.mjs";export{m as default};

@@ -1,1 +1,0 @@
-import{Electricity_default as m}from"./chunk-OQSL3F5V.mjs";export{m as default};

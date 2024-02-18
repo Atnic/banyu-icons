@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import {banyuTheme} from "@banyu/theme";
+import {banyuTheme} from "@jala-banyu/theme";
 
 const config: Config = {
   content: [

@@ -1,1 +1,0 @@
-import{Food_default as m}from"./chunk-U4ILW32N.mjs";export{m as default};

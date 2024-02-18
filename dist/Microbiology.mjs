@@ -1,1 +1,0 @@
-import{Microbiology_default as m}from"./chunk-52SF3GL5.mjs";export{m as default};
