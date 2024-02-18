@@ -1,6 +1,6 @@
 {
   "name": "@jala-banyu/icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Banyu icons set for React by JALA",
   "keywords": [
     "React",
@@ -22,15 +22,16 @@
   "author": "Muhammad Amien <muhammadamien23@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/runtime": "^7.23.5",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
+    "@changesets/types": "^6.0.0",
     "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.56",
+    "react": "^18.2.0",
     "rimraf": "^5.0.5",
     "rollup": "^4.6.1",
-    "terser": "^5.27.1"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.23.5",
-    "react": "^18.2.0",
+    "terser": "^5.27.1",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
