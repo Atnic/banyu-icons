@@ -1,1 +1,0 @@
-import{Insight_default as m}from"./chunk-OFK4W3GA.mjs";export{m as default};

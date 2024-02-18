@@ -1,1 +1,0 @@
-import{Parameter_default as m}from"./chunk-T3FG6X4N.mjs";export{m as default};

@@ -1,1 +1,0 @@
-import{ShrimpWallet_default as m}from"./chunk-VK2AIJI2.mjs";export{m as default};

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
 import {Button} from "@jala-banyu/react";
+import {JalaBiomass, JalaCoin} from "@jala-banyu/icons";
 
 export const metadata: Metadata = {
     title: "Banyu icons",
@@ -32,7 +33,7 @@ export default function RootLayout({
 
                 <div className="items-center justify-end flex-grow hidden basis-0 md:flex">
                     <Button radius="lg">
-                        Go to homepage
+                        <JalaCoin/> Go to homepage
                     </Button>
                     {/*<a href="/" className="px-4 py-2 text-sm font-semibold rounded bg-slate-900 text-slate-50 transition ease-in-out delay-75 hover:scale-105 duration-200">*/}
                     {/*    Go to homepage*/}

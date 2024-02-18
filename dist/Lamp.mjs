@@ -1,1 +1,0 @@
-import{Lamp_default as m}from"./chunk-6XKJJW5L.mjs";export{m as default};

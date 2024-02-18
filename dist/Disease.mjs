@@ -1,1 +1,0 @@
-import{Disease_default as m}from"./chunk-FEYA4EJI.mjs";export{m as default};

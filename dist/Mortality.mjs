@@ -1,1 +1,0 @@
-import{Mortality_default as m}from"./chunk-QSWL6Z5R.mjs";export{m as default};

@@ -3,7 +3,7 @@
 import * as React from "react";
 
 // @ts-ignore
-import {BanyuProvider} from "@banyu/react";
+import {BanyuProvider} from "@jala-banyu/react";
 import {useRouter} from "next/navigation";
 
 export interface ProvidersProps {
