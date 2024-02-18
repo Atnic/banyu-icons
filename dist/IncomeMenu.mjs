@@ -1,0 +1,1 @@
+import{IncomeMenu_default as m}from"./chunk-FLBWYZPY.mjs";export{m as default};

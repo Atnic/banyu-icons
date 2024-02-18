@@ -1,0 +1,1 @@
+import{LowStock_default as m}from"./chunk-P3KEODPC.mjs";export{m as default};

@@ -1,35 +1,37 @@
 {
-  "name": "@muhamien/jala-icons",
-  "version": "2.0.2",
-  "description": "Jala icons set for React",
+  "name": "@jala-banyu/icons",
+  "version": "1.0.1",
+  "description": "Banyu icons set for React by JALA",
   "keywords": [
     "React",
     "SVG",
     "Icons",
-    "JalaIcons"
+    "Banyu Icons",
+    "JALA Tech"
   ],
   "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
-    "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --index-template jala-template.js --icon --title-prop --replace-attr-values \"#101828={currentColor}\" --svg-props fill=\"currentColor\" -d src -- assets"
+    "build": "npm run svgr && tsup src --dts --minify terser",
+    "svgr": "svgr --index-template jala-template.js --typescript --icon --title-prop --replace-attr-values \"#101828={currentColor}\" --svg-props fill=\"currentColor\" -d src -- assets"
   },
   "author": "Muhammad Amien <muhammadamien23@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.23.4",
-    "@babel/preset-env": "^7.23.5",
-    "@babel/preset-react": "^7.23.3",
-    "@rollup/plugin-babel": "^6.0.4",
     "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.2.56",
     "rimraf": "^5.0.5",
     "rollup": "^4.6.1",
-    "rollup-plugin-filesize": "^10.0.0"
+    "terser": "^5.27.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.23.5"
+    "@babel/runtime": "^7.23.5",
+    "react": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
   }
 }

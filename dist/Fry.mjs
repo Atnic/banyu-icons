@@ -1,0 +1,1 @@
+import{Fry_default as m}from"./chunk-TRA5UDLQ.mjs";export{m as default};

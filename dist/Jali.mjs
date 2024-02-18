@@ -1,0 +1,1 @@
+import{Jali_default as m}from"./chunk-HVIFWT7G.mjs";export{m as default};

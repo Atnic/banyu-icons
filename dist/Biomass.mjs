@@ -1,0 +1,1 @@
+import{Biomass_default as m}from"./chunk-PFJDRHOE.mjs";export{m as default};

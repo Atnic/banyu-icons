@@ -1,0 +1,1 @@
+import{TreatmentBottle_default as m}from"./chunk-ITKMHIYK.mjs";export{m as default};

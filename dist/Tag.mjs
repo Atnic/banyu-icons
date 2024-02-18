@@ -1,0 +1,1 @@
+import{Tag_default as m}from"./chunk-QGF7BUMO.mjs";export{m as default};

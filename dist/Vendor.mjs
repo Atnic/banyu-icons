@@ -1,0 +1,1 @@
+import{Vendor_default as m}from"./chunk-OGN2CCMC.mjs";export{m as default};

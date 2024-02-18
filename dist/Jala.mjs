@@ -1,0 +1,1 @@
+import{Jala_default as m}from"./chunk-UCF4IXKY.mjs";export{m as default};

@@ -1,0 +1,1 @@
+import{PlatformMobile_default as m}from"./chunk-QXH5CGC7.mjs";export{m as default};

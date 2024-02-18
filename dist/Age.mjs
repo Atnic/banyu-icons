@@ -1,0 +1,1 @@
+import{Age_default as m}from"./chunk-YE7U77H7.mjs";export{m as default};
