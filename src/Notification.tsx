@@ -33,7 +33,6 @@ function SvgNotification({
   );
 }
 SvgNotification.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgNotification;

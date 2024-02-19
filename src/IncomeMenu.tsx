@@ -33,7 +33,6 @@ function SvgIncomeMenu({
   );
 }
 SvgIncomeMenu.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgIncomeMenu;

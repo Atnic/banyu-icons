@@ -33,7 +33,6 @@ function SvgFixedAssetMenuPaddleWheel({
   );
 }
 SvgFixedAssetMenuPaddleWheel.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFixedAssetMenuPaddleWheel;

@@ -7,7 +7,6 @@ interface SVGRProps {
 declare function SvgSnowNormal({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
 declare namespace SvgSnowNormal {
     var propTypes: {
-        title: PropTypes.Requireable<string>;
         className: PropTypes.Requireable<string>;
     };
 }

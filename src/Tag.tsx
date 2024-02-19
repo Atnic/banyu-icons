@@ -29,7 +29,6 @@ function SvgTag({
   );
 }
 SvgTag.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgTag;

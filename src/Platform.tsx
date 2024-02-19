@@ -29,7 +29,6 @@ function SvgPlatform({
   );
 }
 SvgPlatform.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPlatform;

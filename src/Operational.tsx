@@ -29,7 +29,6 @@ function SvgOperational({
   );
 }
 SvgOperational.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgOperational;

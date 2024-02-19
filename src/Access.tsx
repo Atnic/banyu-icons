@@ -29,7 +29,6 @@ function SvgAccess({
   );
 }
 SvgAccess.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgAccess;

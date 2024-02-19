@@ -7,7 +7,6 @@ interface SVGRProps {
 declare function SvgViewList({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
 declare namespace SvgViewList {
     var propTypes: {
-        title: PropTypes.Requireable<string>;
         className: PropTypes.Requireable<string>;
     };
 }

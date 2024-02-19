@@ -29,7 +29,6 @@ function SvgFeedCumulative({
   );
 }
 SvgFeedCumulative.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFeedCumulative;

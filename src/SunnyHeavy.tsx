@@ -29,7 +29,6 @@ function SvgSunnyHeavy({
   );
 }
 SvgSunnyHeavy.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSunnyHeavy;

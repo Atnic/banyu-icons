@@ -29,7 +29,6 @@ function SvgInfo({
   );
 }
 SvgInfo.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgInfo;

@@ -7,7 +7,6 @@ interface SVGRProps {
 declare function SvgTemperature({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
 declare namespace SvgTemperature {
     var propTypes: {
-        title: PropTypes.Requireable<string>;
         className: PropTypes.Requireable<string>;
     };
 }

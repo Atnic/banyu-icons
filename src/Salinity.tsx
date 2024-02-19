@@ -31,7 +31,6 @@ function SvgSalinity({
   );
 }
 SvgSalinity.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSalinity;

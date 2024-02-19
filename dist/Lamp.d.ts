@@ -7,7 +7,6 @@ interface SVGRProps {
 declare function SvgLamp({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
 declare namespace SvgLamp {
     var propTypes: {
-        title: PropTypes.Requireable<string>;
         className: PropTypes.Requireable<string>;
     };
 }

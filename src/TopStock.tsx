@@ -29,7 +29,6 @@ function SvgTopStock({
   );
 }
 SvgTopStock.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgTopStock;

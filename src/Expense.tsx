@@ -31,7 +31,6 @@ function SvgExpense({
   );
 }
 SvgExpense.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgExpense;

@@ -33,7 +33,6 @@ function SvgActivity2({
   );
 }
 SvgActivity2.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgActivity2;

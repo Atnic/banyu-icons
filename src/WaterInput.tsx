@@ -29,7 +29,6 @@ function SvgWaterInput({
   );
 }
 SvgWaterInput.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgWaterInput;

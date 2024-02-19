@@ -29,7 +29,6 @@ function SvgFilter({
   );
 }
 SvgFilter.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFilter;

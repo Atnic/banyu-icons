@@ -33,7 +33,6 @@ function SvgStackedLine({
   );
 }
 SvgStackedLine.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgStackedLine;

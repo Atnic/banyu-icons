@@ -35,7 +35,6 @@ function SvgDebt({
   );
 }
 SvgDebt.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgDebt;

@@ -11,7 +11,6 @@ function ${componentName}(${props}) {
 }
 
 ${componentName}.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 

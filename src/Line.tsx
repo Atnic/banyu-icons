@@ -29,7 +29,6 @@ function SvgLine({
   );
 }
 SvgLine.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgLine;

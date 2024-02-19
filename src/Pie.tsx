@@ -33,7 +33,6 @@ function SvgPie({
   );
 }
 SvgPie.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPie;

@@ -39,7 +39,6 @@ function SvgSrEstimation({
   );
 }
 SvgSrEstimation.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSrEstimation;

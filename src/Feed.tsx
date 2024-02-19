@@ -41,7 +41,6 @@ function SvgFeed({
   );
 }
 SvgFeed.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFeed;

@@ -33,7 +33,6 @@ function SvgFinancialReport({
   );
 }
 SvgFinancialReport.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFinancialReport;

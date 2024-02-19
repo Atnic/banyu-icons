@@ -48,7 +48,6 @@ function SvgVie({
   );
 }
 SvgVie.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgVie;

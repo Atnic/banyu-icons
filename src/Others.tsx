@@ -29,7 +29,6 @@ function SvgOthers({
   );
 }
 SvgOthers.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgOthers;

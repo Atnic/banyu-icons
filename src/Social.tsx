@@ -29,7 +29,6 @@ function SvgSocial({
   );
 }
 SvgSocial.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSocial;

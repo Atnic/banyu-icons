@@ -37,7 +37,6 @@ function SvgWaterQuality({
   );
 }
 SvgWaterQuality.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgWaterQuality;

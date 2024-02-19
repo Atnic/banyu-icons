@@ -29,7 +29,6 @@ function SvgSubtraction({
   );
 }
 SvgSubtraction.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSubtraction;

@@ -38,7 +38,6 @@ function SvgStockUser({
   );
 }
 SvgStockUser.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgStockUser;

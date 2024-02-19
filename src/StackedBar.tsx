@@ -29,7 +29,6 @@ function SvgStackedBar({
   );
 }
 SvgStackedBar.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgStackedBar;

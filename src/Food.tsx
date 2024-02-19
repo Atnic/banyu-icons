@@ -29,7 +29,6 @@ function SvgFood({
   );
 }
 SvgFood.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFood;

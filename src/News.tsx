@@ -35,7 +35,6 @@ function SvgNews({
   );
 }
 SvgNews.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgNews;

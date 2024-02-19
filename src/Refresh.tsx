@@ -29,7 +29,6 @@ function SvgRefresh({
   );
 }
 SvgRefresh.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgRefresh;

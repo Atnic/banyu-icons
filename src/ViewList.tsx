@@ -29,7 +29,6 @@ function SvgViewList({
   );
 }
 SvgViewList.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgViewList;

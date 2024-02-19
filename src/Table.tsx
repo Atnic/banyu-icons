@@ -29,7 +29,6 @@ function SvgTable({
   );
 }
 SvgTable.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgTable;

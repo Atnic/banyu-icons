@@ -33,7 +33,6 @@ function SvgFarmStep({
   );
 }
 SvgFarmStep.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFarmStep;

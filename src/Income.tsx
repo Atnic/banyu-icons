@@ -31,7 +31,6 @@ function SvgIncome({
   );
 }
 SvgIncome.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgIncome;

@@ -29,7 +29,6 @@ function SvgPond({
   );
 }
 SvgPond.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPond;

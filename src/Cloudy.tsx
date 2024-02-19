@@ -31,7 +31,6 @@ function SvgCloudy({
   );
 }
 SvgCloudy.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgCloudy;

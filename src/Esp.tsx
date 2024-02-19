@@ -90,7 +90,6 @@ function SvgEsp({
   );
 }
 SvgEsp.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgEsp;

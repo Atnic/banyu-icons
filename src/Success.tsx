@@ -29,7 +29,6 @@ function SvgSuccess({
   );
 }
 SvgSuccess.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSuccess;

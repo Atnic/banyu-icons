@@ -29,7 +29,6 @@ function SvgLamp({
   );
 }
 SvgLamp.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgLamp;

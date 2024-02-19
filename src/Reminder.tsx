@@ -35,7 +35,6 @@ function SvgReminder({
   );
 }
 SvgReminder.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgReminder;

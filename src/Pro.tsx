@@ -29,7 +29,6 @@ function SvgPro({
   );
 }
 SvgPro.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPro;

@@ -39,7 +39,6 @@ function SvgAiGenerate({
   );
 }
 SvgAiGenerate.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgAiGenerate;

@@ -33,7 +33,6 @@ function SvgRainHeavy({
   );
 }
 SvgRainHeavy.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgRainHeavy;

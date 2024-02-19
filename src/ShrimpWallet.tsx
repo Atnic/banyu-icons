@@ -33,7 +33,6 @@ function SvgShrimpWallet({
   );
 }
 SvgShrimpWallet.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgShrimpWallet;

@@ -29,7 +29,6 @@ function SvgFry({
   );
 }
 SvgFry.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFry;

@@ -29,7 +29,6 @@ function SvgInsight({
   );
 }
 SvgInsight.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgInsight;

@@ -29,7 +29,6 @@ function SvgVendor({
   );
 }
 SvgVendor.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgVendor;

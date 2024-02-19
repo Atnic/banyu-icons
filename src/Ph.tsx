@@ -29,7 +29,6 @@ function SvgPh({
   );
 }
 SvgPh.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPh;

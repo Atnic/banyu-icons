@@ -29,7 +29,6 @@ function SvgPreparation({
   );
 }
 SvgPreparation.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPreparation;

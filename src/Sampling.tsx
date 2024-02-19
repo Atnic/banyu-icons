@@ -29,7 +29,6 @@ function SvgSampling({
   );
 }
 SvgSampling.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSampling;

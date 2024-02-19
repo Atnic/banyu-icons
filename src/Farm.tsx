@@ -29,7 +29,6 @@ function SvgFarm({
   );
 }
 SvgFarm.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgFarm;

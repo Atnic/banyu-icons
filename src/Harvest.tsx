@@ -29,7 +29,6 @@ function SvgHarvest({
   );
 }
 SvgHarvest.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgHarvest;

@@ -31,7 +31,6 @@ function SvgSnowNormal({
   );
 }
 SvgSnowNormal.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSnowNormal;

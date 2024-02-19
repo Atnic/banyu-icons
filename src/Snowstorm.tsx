@@ -29,7 +29,6 @@ function SvgSnowstorm({
   );
 }
 SvgSnowstorm.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgSnowstorm;

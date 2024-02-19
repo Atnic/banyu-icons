@@ -47,7 +47,6 @@ function SvgUsa({
   );
 }
 SvgUsa.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgUsa;

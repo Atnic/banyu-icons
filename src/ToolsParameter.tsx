@@ -29,7 +29,6 @@ function SvgToolsParameter({
   );
 }
 SvgToolsParameter.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgToolsParameter;

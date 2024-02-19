@@ -35,7 +35,6 @@ function SvgEmptyStock({
   );
 }
 SvgEmptyStock.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgEmptyStock;

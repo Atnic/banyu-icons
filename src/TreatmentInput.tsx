@@ -29,7 +29,6 @@ function SvgTreatmentInput({
   );
 }
 SvgTreatmentInput.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgTreatmentInput;

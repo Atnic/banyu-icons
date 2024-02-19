@@ -29,7 +29,6 @@ function SvgParameter({
   );
 }
 SvgParameter.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgParameter;

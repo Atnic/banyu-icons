@@ -29,7 +29,6 @@ function SvgPicture({
   );
 }
 SvgPicture.propTypes = {
-  title: PropTypes.string,
   className: PropTypes.string,
 };
 export default SvgPicture;
