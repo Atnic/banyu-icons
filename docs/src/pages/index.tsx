@@ -9,7 +9,7 @@ export default function HomePage() {
     <Container title={BRAND_TITLE}>
       <Badges />
       <p>
-          Jala icons is an icon library designed for the react project by Jala Design, provided to help develop the JALA Web App.
+          Banyu icons is an icon library designed for the react project by Jala Tech, provided to help develop the JALA Web App.
       </p>
 
       <h2>Installation</h2>
@@ -22,7 +22,7 @@ export default function HomePage() {
         <p>
             or
         </p>
-        <CodeBlock language="bash" code={`pnpm install @muhamien/jala-icon --save`} />
+        <CodeBlock language="bash" code={`pnpm install @jala-banyu/icons --save`} />
 
       <h3>Usage</h3>
       <CodeBlock language="jsx" code={HOME_USAGE} />

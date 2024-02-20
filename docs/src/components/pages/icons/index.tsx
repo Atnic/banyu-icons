@@ -6,7 +6,7 @@ import IconSetViewer from "./iconset-viewer";
 export default function IconsPageComponent() {
 
   return (
-    <Container title="Icons">
+    <Container title="All Icons">
       <IconSetViewer/>
     </Container>
   );
