@@ -1,5 +1,11 @@
 # @jala-banyu/icons
 
+## 1.0.7
+
+### Patch Changes
+
+- build usa flag icon
+
 ## 1.0.6
 
 ### Patch Changes
