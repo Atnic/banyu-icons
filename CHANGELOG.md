@@ -1,5 +1,11 @@
 # @jala-banyu/icons
 
+## 1.0.6
+
+### Patch Changes
+
+- fix usa flag icon
+
 ## 1.0.5
 
 ### Patch Changes
