@@ -951,10 +951,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@jala-banyu/icons@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@jala-banyu/icons/-/icons-1.0.6.tgz#42f14aed1a9326a97db8a9af9e71d8282217f2ef"
-  integrity sha512-A+919vN5mzaSUdDD1rMfzd1qFhpOKENviaEchLh+cyPBV3rOQEvd+PMx8bEybD3ekZUYBcTpCFNW3zuHzRXYEw==
+"@jala-banyu/icons@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@jala-banyu/icons/-/icons-1.0.7.tgz#6a03dbb45536be4ca5ee65fd8feeba29edb8eb62"
+  integrity sha512-dQei6TI9GznXBa/XEqcSCi9UqOW6Ny7xGSiy81gA9GZCP3AjqHRa/F4y53b88/jQwllSWsG/qy3tj9dfEDIVug==
   dependencies:
     "@rollup/plugin-typescript" "^11.1.6"
 
