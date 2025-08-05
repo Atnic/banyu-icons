@@ -12,7 +12,7 @@
   "version": "4.11.0",
   "private": true,
   "dependencies": {
-    "@jala-banyu/icons": "^1.0.7",
+    "@jala-banyu/icons": "file:../",
     "@loadable/component": "^5.15.2",
     "babel-plugin-codegen": "^4.1.5",
     "babel-plugin-macros": "^3.1.0",
@@ -33,6 +33,7 @@
     "tiny-skeleton-loader-react": "^1.1.0"
   },
   "devDependencies": {
+    "@types/minimatch": "^6.0.0",
     "@types/node": "^18.8.5",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",

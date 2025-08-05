@@ -1,6 +1,6 @@
 {
   "name": "@jala-banyu/icons",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Banyu icons set for React by JALA",
   "keywords": [
     "React",
@@ -41,6 +41,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@rollup/plugin-typescript": "^11.1.6"
+    "@rollup/plugin-typescript": "^11.1.6",
+    "prop-types": "^15.8.1"
   }
 }

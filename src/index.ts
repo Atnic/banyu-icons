@@ -1,3 +1,4 @@
+export { default as JalaPlus } from "./Plus";
 export { default as JalaAccess } from "./Access";
 export { default as JalaAchievement } from "./Achievement";
 export { default as JalaActivity2 } from "./Activity2";

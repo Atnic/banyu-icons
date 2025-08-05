@@ -1,5 +1,4 @@
 import type { SVGProps } from "react";
-import PropTypes from "prop-types";
 interface SVGRProps {
     title?: string;
     titleId?: string;
@@ -7,7 +6,7 @@ interface SVGRProps {
 declare function SvgSunny({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps): import("react/jsx-runtime").JSX.Element;
 declare namespace SvgSunny {
     var propTypes: {
-        className: PropTypes.Requireable<string>;
+        className: any;
     };
 }
 export default SvgSunny;

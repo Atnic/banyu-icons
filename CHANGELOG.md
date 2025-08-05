@@ -1,5 +1,11 @@
 # @jala-banyu/icons
 
+## 1.0.8
+
+### Patch Changes
+
+- feat: Add JalaPlus Icon
+
 ## 1.0.7
 
 ### Patch Changes

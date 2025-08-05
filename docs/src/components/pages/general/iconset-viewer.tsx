@@ -32,7 +32,8 @@ export default function IconSetViewer() {
         "JalaTable",
         "JalaTag",
         "JalaFilter",
-        "JalaActivity2"
+        "JalaActivity2",
+        "jalaPlus"
     ];
     return (
         <>
