@@ -63,20 +63,30 @@ git diff
 ```bash
 git add .
 git commit -m "chore: release new version"
-git push origin main
+git push origin main       # mendorong commit (tanpa tag)
 ```
 
 ### Step 8: Publish ke NPM
 ```bash
-npx changeset publish
+npx changeset publish      # membuat tag lokal & publish paket
 ```
 
-### Step 9: Verifikasi Publikasi
+### Step 9: Push Tag ke Remote
 ```bash
-# Cek apakah paket sudah terpublikasi
+# Opsi 1 – dorong semua tag sekaligus
+git push origin --tags
+
+# Opsi 2 – dorong tag versi terbaru saja
+# ganti v1.0.8 sesuai versi yang baru dibuat
+git push origin v1.x.x
+```
+
+### Step 10: Verifikasi Publikasi
+```bash
+# Pastikan paket sudah ada di registry
 npm view @jala-banyu/icons
 
-# Test install di project lain
+# Coba instal versi terbaru
 npm install @jala-banyu/icons@latest
 ```
 
