@@ -818,8 +818,10 @@
   dependencies:
     "@isaacs/balanced-match" "^4.0.1"
 
-"@jala-banyu/icons@file:..":
+"@jala-banyu/icons@1.0.8":
   version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@jala-banyu/icons/-/icons-1.0.8.tgz#de3dd16d0389cf60994f0c9eeec6a932cf89f297"
+  integrity sha512-NT2VRJbSVeIkLDtta55mlJ3nsfIrLJmbH9Hc2MomdhVDlNH6TablsrcbvZL3xb6kWrcdD9M8a0UIlXr9bTkpUA==
   dependencies:
     "@rollup/plugin-typescript" "^11.1.6"
     prop-types "^15.8.1"
